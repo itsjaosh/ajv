@@ -95,10 +95,10 @@ function createFloatingElements() {
     });
 
     // Create bears
-    config.floatingEmojis.bears.forEach(bear => {
+    config.floatingEmojis.faces.forEach(faces => {
         const div = document.createElement('div');
-        div.className = 'bear';
-        div.innerHTML = bear;
+        div.className = 'faces';
+        div.innerHTML = faces;
         setRandomPosition(div);
         container.appendChild(div);
     });
