@@ -23,50 +23,45 @@ const CONFIG = {
     questions: {
         first: {
             text: "Dear Aarna Rana...",                                    // First interaction
-            yesBtn: "Yea",                                             // Text for "Yes" button
-            noBtn: "Kya chahiye tereko",                                               // Text for "No" button
+            yesBtn: "Haan bata",                                             // Text for "Yes" button
+            noBtn: "Mujhe pata hai tu kya pochne vala hai nikal",
+            secretAnswer: "Theek hai banunga apki valentine🙄🙄"           // Secret hover message// Text for "No" button
         },
         second: {
-            text: "Mera ek saval hai...",                          // For the love meter
-            startText: "haan baata",                                   // Text before the percentage
-            nextBtn: "chup reh mat puch"                                         // Text for the next button
+            text: "guess how much i ishq you",                          // For the love meter
+            startText: "mujhe pata hai",                                   // Text before the percentage
+            nextBtn: "chal"                                         // Text for the next button
         },
         third: {
-            text: "kya ap iss saal ki वेलेंटाइन्स...", // The big question!
-            yesBtn: "omgg (oh my gawdd)",                                             // Text for "Yes" button
-            noBtn: "abbe yaar..."                                                 // Text for "No" button
-        }
-        fouth: {
-            text: "...ap meri वेलेंटाइन्स bana chahte ho...? (question mark)"
-            usBtn: "hmmm...🤔🤔",
-            yesBtn: "theek hai🙄🙄",
-            noBtn: "nahi🤪🤪"
+            text: "kya ap iss saal ki वेलेंटाइन्स ap meri वेलेंटाइन्स bana chahte ho...?", // The big question!
+            yesBtn: "theek hai🙄🙄",                                             // Text for "Yes" button
+            noBtn: "nahi🤪🤪"                                                 // Text for "No" button
         }
     },
 
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows when they go past 5000%
-        high: "To infinity and beyond! 🚀💝",              // Shows when they go past 1000%
-        normal: "And beyond! 🥰"                           // Shows when they go past 100%
+        extreme: "OH MAH GOD I ALSO LOVE YOU THIS MUCH (thodu more tho non-competitively😈😈",  // Shows when they go past 5000%
+        high: "I LOVE YOU MORE AND FOREVER LOVE YOU MORE",              // Shows when they go past 1000%
+        normal: "agar ap sochte ho mei apko itna hi pyar hai mei apko aur bhi pyar karunga jabtak iska sau guna na ho jaye"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "Yay! I'm the luckiest person in the world! 🎉💝💖💝💓",
-        message: "Now come get your gift, a big warm hug and a huge kiss!",
-        emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
+        title: "YYEEEEAAAAAAHHHHHHHH",
+        message: "YOU MAH BESTEST BABI MY ONLY JAAN I KISSI YOU HOLD YOU FOREVER YOU MAH FOREVER BESTEST VALENTINE I LOVE YOU FOREVER",
+        emojis: "😜 💚 🤍 😈 💓 💙 😉 🩷 💝 😝 💖 ❤️ 💗"  // These will bounce around
     },
 
     // Color scheme for the website
     // Use https://colorhunt.co or https://coolors.co to find beautiful color combinations
     colors: {
-        backgroundStart: "#FAE8EB",      // Gradient start (try pastel colors for a soft look)
-        backgroundEnd: "#F6CACA",        // Gradient end (should complement backgroundStart)
-        buttonBackground: "#7FC2C6",     // Button color (should stand out against the background)
-        buttonHover: "#CD9FCC",          // Button hover color (slightly lighter than buttonBackground)
-        textColor: "#A69AFE"             // Text color (make sure it's readable!)
+        backgroundStart: "#fae8eb",      // Gradient start (try pastel colors for a soft look)
+        backgroundEnd: "#f6caca",        // Gradient end (should complement backgroundStart)
+        buttonBackground: "#7fc2c6",     // Button color (should stand out against the background)
+        buttonHover: "#cd9fcc",          // Button hover color (slightly lighter than buttonBackground)
+        textColor: "#030014"             // Text color (make sure it's readable!)
     },
 
     // Animation settings
