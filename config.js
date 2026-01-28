@@ -5,37 +5,42 @@
 const CONFIG = {
     // Your Valentine's name that will appear in the title
     // Example: "Jade", "Sarah", "Mike"
-    valentineName: "Jade",
+    valentineName: "Aarna",
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
-    pageTitle: "Will You Be My Valentine? 💝",
+    pageTitle: "Dear meri jaan",
 
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
-        hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis
-        bears: ['🧸', '🐻']                       // Cute bear emojis
+        hearts: ['❤️','💙','💗','💖','💓','💚',💝','🩷','🤍'],
+        faces: ['😉','😜','😝','😈']
     },
 
     // Questions and answers
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Do you like me?",                                    // First interaction
-            yesBtn: "Yes",                                             // Text for "Yes" button
-            noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
+            text: "Dear Aarna Rana...",                                    // First interaction
+            yesBtn: "Yea",                                             // Text for "Yes" button
+            noBtn: "Kya chahiye tereko",                                               // Text for "No" button
         },
         second: {
-            text: "How much do you love me?",                          // For the love meter
-            startText: "This much!",                                   // Text before the percentage
-            nextBtn: "Next ❤️"                                         // Text for the next button
+            text: "Mera ek saval hai...",                          // For the love meter
+            startText: "haan baata",                                   // Text before the percentage
+            nextBtn: "chup reh mat puch"                                         // Text for the next button
         },
         third: {
-            text: "Will you be my Valentine on February 14th, 2025? 🌹", // The big question!
-            yesBtn: "Yes!",                                             // Text for "Yes" button
-            noBtn: "No"                                                 // Text for "No" button
+            text: "kya ap iss saal ki वेलेंटाइन्स...", // The big question!
+            yesBtn: "omgg (oh my gawdd)",                                             // Text for "Yes" button
+            noBtn: "abbe yaar..."                                                 // Text for "No" button
+        }
+        fouth: {
+            text: "...ap meri वेलेंटाइन्स bana chahte ho...? (question mark)"
+            usBtn: "hmmm...🤔🤔",
+            yesBtn: "theek hai🙄🙄",
+            noBtn: "nahi🤪🤪"
         }
     },
 
@@ -57,11 +62,11 @@ const CONFIG = {
     // Color scheme for the website
     // Use https://colorhunt.co or https://coolors.co to find beautiful color combinations
     colors: {
-        backgroundStart: "#ffafbd",      // Gradient start (try pastel colors for a soft look)
-        backgroundEnd: "#ffc3a0",        // Gradient end (should complement backgroundStart)
-        buttonBackground: "#ff6b6b",     // Button color (should stand out against the background)
-        buttonHover: "#ff8787",          // Button hover color (slightly lighter than buttonBackground)
-        textColor: "#ff4757"             // Text color (make sure it's readable!)
+        backgroundStart: "#FAE8EB",      // Gradient start (try pastel colors for a soft look)
+        backgroundEnd: "#F6CACA",        // Gradient end (should complement backgroundStart)
+        buttonBackground: "#7FC2C6",     // Button color (should stand out against the background)
+        buttonHover: "#CD9FCC",          // Button hover color (slightly lighter than buttonBackground)
+        textColor: "#A69AFE"             // Text color (make sure it's readable!)
     },
 
     // Animation settings
