@@ -1,11 +1,11 @@
 /* CSS Variables - Will be updated by JavaScript */
 :root {
     /* Colors */
-    --background-color-1: #fae8eb;
-    --background-color-2: #f6caca;
-    --button-color: #7fc2c6;
-    --button-hover: #cd9fcc;
-    --text-color: #030014;
+    --background-color-1: #ffafbd;
+    --background-color-2: #ffc3a0;
+    --button-color: #ff6b6b;
+    --button-hover: #ff8787;
+    --text-color: #ff4757;
 
     /* Animations */
     --float-duration: 15s;
@@ -292,3 +292,27 @@ h2 {
     0% { opacity: 0.2; }
     100% { opacity: 0.3; }
 }
+
+.music-controls {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.music-btn {
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.music-btn:hover {
+    transform: scale(1.05);
+    background: var(--secondary-color);
+} 
